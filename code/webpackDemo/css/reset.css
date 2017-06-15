@@ -1,0 +1,22 @@
+body,html {
+	width:  100%;
+	height:  100%;
+}
+
+body,html,p,div,ul,li,a,table,tr,th,td,dl,dt,dd,h1,h2 {
+	margin:  0;
+	padding:  0;
+}
+
+body {
+	font-size: 62.5%;     /*  这样1em=10px   或者font-size: 63%  常见于PC端、移动端不建议使用！ */  
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration:  none;
+	color:  red;
+}

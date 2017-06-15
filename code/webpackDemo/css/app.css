@@ -1,0 +1,19 @@
+/*由于该文件，需要先让reset.css先运行 */
+
+@import './reset.css';
+h1 {
+    font-size: 99px;
+    color: red;
+}
+
+body {
+    background: #ccc;
+    background: url('../img/1.jpg')
+}
+
+div {
+    width: 600px;
+    height: 400px;
+    border: 1px solid yellow;
+    background: url('../img/white.jpg') no-repeat 0 / contain;
+}
